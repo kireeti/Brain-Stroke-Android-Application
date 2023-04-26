@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Stroke Prediction Screen"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/textView1"
+        android:ems="80"
+        android:hint="Age"
+        android:inputType="number">
+        <requestFocus />
+    </EditText>
+
+    <Spinner
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/age"
+        android:ems="100"
+        android:hint="Gender"
+        android:inputType="text"/>
+
+
+    <Spinner
+        android:id="@+id/hypertension"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/gender"
+        android:ems="100"
+        android:hint="Hypertension"
+        android:inputType="text"/>
+
+
+    <Spinner
+        android:id="@+id/heartdisease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/hypertension"
+        android:ems="100"
+        android:hint="Heart Disease"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/glucose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="40"
+        android:hint="Glucose Level"
+        android:layout_below="@+id/heartdisease"
+        android:layout_marginTop="25dp"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/bmi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="40"
+        android:hint="BMI"
+        android:layout_below="@+id/glucose"
+        android:layout_marginTop="25dp"
+        android:inputType="numberDecimal"/>
+
+    <Spinner
+        android:id="@+id/smokingstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/bmi"
+        android:ems="100"
+        android:hint="Smoking Status"
+        android:inputType="text"/>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/smokingstatus"
+        android:layout_marginTop="25dp"
+        >
+
+
+        <Button
+            android:id="@+id/predict"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_weight="1"
+            android:text="Submit"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:textColor="#283593">
+        </Button>
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/predict"
+            android:layout_marginTop="25dp"
+            android:layout_weight="1"
+            android:text="Back"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:textColor="#283593">
+        </Button>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,2 @@
+project(':democode').projectDir = new File(rootDir, 'AndroidCode/')
+include ':democode'

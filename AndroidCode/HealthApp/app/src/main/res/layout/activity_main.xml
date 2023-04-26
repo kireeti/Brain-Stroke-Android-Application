@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    <ImageView android:src="@drawable/icon" android:layout_height="wrap_content"
+        android:layout_width="fill_parent" android:id="@+id/mobiIcon"
+        />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="80dp"
+        android:text="Brain Stroke Prediction App"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <Button android:textAppearance="?android:attr/textAppearanceMedium" android:textStyle="bold" android:textColor="#283593" android:layout_marginTop="30dp" android:text="User Login" android:id="@+id/user" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+    <Button android:textAppearance="?android:attr/textAppearanceMedium" android:textStyle="bold" android:textColor="#283593" android:layout_marginTop="30dp" android:text="New User Signup Here" android:id="@+id/signup" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+
+</LinearLayout>

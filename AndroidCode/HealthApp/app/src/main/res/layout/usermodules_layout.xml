@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    <ImageView android:src="@drawable/icon" android:layout_height="wrap_content"
+        android:layout_width="fill_parent" android:id="@+id/mobiIcon"
+        />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="User Modules Screen"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <Button android:textAppearance="?android:attr/textAppearanceMedium" android:textStyle="bold" android:textColor="#283593" android:layout_marginTop="7dp" android:text="Brain Stroke Prediction" android:id="@+id/strokeprediction" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+    <Button android:textAppearance="?android:attr/textAppearanceMedium" android:textStyle="bold" android:textColor="#283593" android:layout_marginTop="7dp" android:text="Suggestions" android:id="@+id/suggestion" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+    <Button android:textAppearance="?android:attr/textAppearanceMedium" android:textStyle="bold" android:textColor="#283593" android:layout_marginTop="7dp" android:text="Exercises" android:id="@+id/exercises" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+    <Button android:textAppearance="?android:attr/textAppearanceMedium" android:textStyle="bold" android:textColor="#283593" android:layout_marginTop="7dp" android:text="Logout" android:id="@+id/logout" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+
+</LinearLayout>
